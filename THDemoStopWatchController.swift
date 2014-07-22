@@ -10,11 +10,11 @@ import UIKit
 
 class THDemoStopWatchController: UIViewController, UIGestureRecognizerDelegate, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet var timeDisplayLabel: UILabel
+    @IBOutlet var timeDisplayLabel: UILabel!
     
-    @IBOutlet var laptimeDisplayLabel: UILabel
+    @IBOutlet var laptimeDisplayLabel: UILabel!
     
-    @IBOutlet var tableView: UITableView
+    @IBOutlet var tableView: UITableView!
     
     var timer = NSTimer()
     
